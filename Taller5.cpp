@@ -20,9 +20,11 @@ int main() {
     int option = 0;
     List<int*> sortedList;
     do {
+
+        printMenu();
         cout << "Ingrese una opción: ";
         cin >> option;
-        printMenu();
+        
         switch (option) {
             case 1:
                 list = generateRandomList();
